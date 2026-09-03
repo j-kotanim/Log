@@ -1,0 +1,56 @@
+@page {
+  size: A4;
+}
+
+body {
+  font-family: "Noto Sans CJK JP", "Noto Sans CJK", "Noto Serif CJK JP", sans-serif;
+  font-size: 11pt;
+  line-height: 1.65;
+  color: #111;
+  overflow-wrap: anywhere;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.3;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+p, li, blockquote, td, th {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 10pt;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.45em 0.55em;
+  vertical-align: top;
+}
+
+blockquote {
+  margin: 0.8em 0;
+  padding: 0.1em 1em;
+  border-left: 4px solid #bbb;
+  color: #444;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #bbb;
+  margin: 1.2em 0;
+}
+
+code {
+  font-family: "Noto Sans Mono CJK JP", "Noto Sans CJK JP", monospace;
+}
